@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+    .jumbotron{
+    margin: 50px;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient( #fff;)
+  }
+  body {
+  background-image: url('static/IMG_5068.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+</style>
+<body> 
+
+  {% include "quiz/navbar.html" %}
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<section id="section-jumbotron" class="jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <p class="display-3 d-none d-sm-block"; style="background-color:#ffffff;opacity: 0.7;">Quiz Organizer</p>
+<br>
+    <p class="display-4 d-none d-sm-block"; style="background-color:#ffffff;opacity: 0.7;">Test Your Skills and Become a Master</p>
+    <p class="lead", style="background-color:#ffffff;opacity: 0.7;">We organize quizzes on various topics</p>
+
+ 
+    <p class="lead"; style="background-color:#ffffff;opacity: 0.7;"></p>
+    <p style="background-color:#ffffff;opacity: 0.7;">One User Account for All</p>
+    <a href="/student/studentsignup" class="btn btn-secondary"<i class="btn btn-secondary" aria-hidden="true"></i> Sign Up</a>
