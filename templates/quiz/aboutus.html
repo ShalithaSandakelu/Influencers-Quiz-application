@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+<style>
+  p1 {
+    font-size: 40px;
+    text-align: center;
+  }
+</style>
+
+  {% include "quiz/navbar.html" %}
+  <br><br>
+  <center>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    <p1 class="display-4 d-none d-sm-block font-weight-bold">About Us</p1>
+    <br>
+    <p class="lead">We Provide A Platform For Students To practice Questions  <br> Best Path for Become a Master</p>
+    <hr class="my-4">
+    <br>
+    <p class="font-weight-bold">Faculty of Business </p>
+    <p class="font-weight-bold">University Of Moratuwa</p>
+  </div>
+
+  {% include "quiz/footer.html" %}
+</body>
+
+</html>
